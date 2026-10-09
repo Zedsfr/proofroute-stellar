@@ -4,6 +4,10 @@
 
 ProofRoute is the genesis of a proof-and-rewards product for learning cohorts, hackathons and community work. It combines a **Soroban smart contract** for durable attestations, an **AI review agent** for evidence triage, and a paid **x402 API** so software agents can pay per review.
 
+## Live visual demo
+
+Explore the project narrative and the end-to-end flow: **[Zedsfr.github.io/proofroute-stellar](https://zedsfr.github.io/proofroute-stellar/)**.
+
 ## The one flow we are building
 
 **A cohort mentor in Abidjan spends five minutes checking every learner submission.** For 100 submissions, that is more than eight hours of repetitive review.
@@ -129,5 +133,6 @@ The outcome is a portable proof that no platform owns. The next iteration adds o
 ```text
 contracts/bonjour-42/   # ProofRoute Soroban contract and tests
 apps/proofroute-agent/  # AI reviewer + x402-protected HTTP API
+docs/                   # Public visual demo, deployed with GitHub Pages
 AGENTS.md               # Context for coding agents
 ```
