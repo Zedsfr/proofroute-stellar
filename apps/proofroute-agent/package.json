@@ -1,0 +1,17 @@
+{
+  "name": "proofroute-agent",
+  "private": true,
+  "version": "0.1.0",
+  "description": "AI proof-review agent with an x402-paid API for ProofRoute",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "check": "node --check src/server.js && node --check src/review-agent.js"
+  },
+  "dependencies": {
+    "@x402/core": "^2.0.0",
+    "@x402/evm": "^2.0.0",
+    "@x402/express": "^2.0.0",
+    "express": "^5.1.0"
+  }
+}

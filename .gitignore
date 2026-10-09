@@ -1,0 +1,10 @@
+# Rust's output directory
+target
+
+# Local settings
+.soroban
+.stellar
+
+# Node.js dependencies and local secrets
+apps/*/node_modules
+apps/*/.env
